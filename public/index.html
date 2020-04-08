@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris</title>
+        <link rel='stylesheet' type="text/css" href='./stylesheets/styles.css'/>
+    </head>
+    <body>
+        <div id="greeting" class="active">
+            <div class="container">
+                <h1>Добро пожаловать в Тетрис!</h1>
+                <h3>Введите свой никнейм: </h3>
+                <input type="text" id="name">
+                <button id="button">Играть</button>
+            </div>
+        </div>
+        <div id="totalscore" class="hidden">
+
+        </div>
+        <div id="tetris" class="hidden">
+            <div class="container">
+                <div id="tetrisright">
+                    <div class="title"><b>ТЕТРИС</b></div>
+                    <h4>Управление: </h4>
+                    <p class="info">&harr;: передвижение  влево/вправо;
+                    <br>&uarr;: поворот фигуры;
+                    <br>&darr; или пробел: "уронить" фигуру;
+                    <br>Esc: пауза
+                    </p>
+                    <canvas id="figurecanvas" width="120" height="120"></canvas>
+                    <p class="info" id="tetriscount"></p>
+                </div>
+                <div id="tetrisleft">
+                <canvas id="tetriscanvas" width="300" height="600"></canvas>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script src='javascripts/main.js'></script>
+    </body>
+</html>
