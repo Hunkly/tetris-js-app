@@ -3,3 +3,7 @@ Hello. This is application written on JavaScript without any frameworks and libr
 
 ## Author 
 Hunkly.
+
+### Technologies:
+- Node JS Express
+- JavaScript
